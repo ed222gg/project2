@@ -1,19 +1,34 @@
 "use strict"; //objekt.metod/egenskap(argument)
 
-var Game = {
-                // 2,2,4,1,0,3,1,3,4
-    memoryArray: [],
-    imgTagArray: [],
-    count: 1, // antal klick
-    score: 0,
-    firstClick: null,
-    secondClick: null,
-    firstClickLocation: null,
-    gridCol: 4,
-    gridRow: 4,
-    counter: document.getElementById("counter"),
-    
-    init: function() {
+var Game= {
+
+    pos: 0,
+    categoryNr: undefined,
+    test: undefined,
+    testStatus: undefined,
+    question: undefined,
+    choice: undefined,
+    choises: undefined,
+    chA: undefined,
+    chB: undefined,
+    correct: 0,
+    questionsArray: [],
+
+
+    init: function() { // kalla och lyssna på ett klick som då kommer utföra detta!
+        var radios = document.getElementsByName('category');
+console.log(radios)
+        for (var i = 0, length = radios.length; i < length; i++) 
+        {
+            if (radios[i].checked) 
+            {
+                // do whatever you want with the checked radio  tex kör frågorna för den kategorin som radios är sammankopplad med. 
+                console.log(radios[i].value);
+                break;
+            }
+        // only one radio can be logically checked, don't check the rest
+
+        }
 
     },
 };
