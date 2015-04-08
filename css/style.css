@@ -1,0 +1,63 @@
+body{
+    background: #FFFFFF;
+}
+
+main{
+    margin-right:44px;
+}
+
+header{
+    font-family: 'Roboto', sans-serif;
+    border-bottom: solid #000000;
+    border-width: 5px;
+    font-size: 52px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 44px;
+    margin-right: 44px;
+}
+
+nav{
+   
+}
+
+nav a{
+    -webkit-transition: background 100ms ease-in;
+    -moz-transition: background 100ms ease-in;
+    -ms-transition: background 100ms ease-in;
+    -o-transition: background 100ms ease-in;
+    transition: background 100ms ease-in;
+    
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 12px;
+    margin-left: 8px;
+    background-color: #000000;
+}
+
+
+nav a:hover{
+
+}
+
+nav li{
+
+}
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+#categories{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+

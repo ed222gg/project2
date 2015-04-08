@@ -1,0 +1,57 @@
+category{
+    music:[
+        
+        [
+            {
+                q1: 'vem dog först?',
+                bild1: 'fil/map/fraga1alt1.jpg',
+                bild2: 'fil/map/fraga2alt1.jpg',
+            },
+            {
+                q2: 'vem dog först?',
+               bild1: 'fil/map/fraga1alt1.jpg',
+               bild2: 'fil/map/fraga2alt1.jpg',
+            },
+            {
+               q3: 'vem dog först?',
+               bild1: 'fil/map/fraga1alt1.jpg',
+               bild2: 'fil/map/fraga2alt1.jpg',
+            }
+            
+        ],
+        [],
+        [],
+    ],
+    
+    movieTv:
+}
+
+------------------------------------------------------------------
+category{
+    music:[
+       { /*'Vem dog först?'*/-------------------- ska det vara brackets där? osv
+        [
+            {
+                q: 'vem åt mest mat',
+                bild1: 'fil/map/fraga1alt1.jpg',
+                bild2: 'fil/map/fraga2alt1.jpg',
+            },
+            {
+                q: '',
+                a: ''
+            },
+            {
+                q: '',
+                a: ''
+            }
+       }------------------------
+        ],
+        /*Vilket album släptes först*/
+        [],
+        
+        [],
+    ],
+    
+    movieTv:
+}
+
