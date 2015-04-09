@@ -89,16 +89,18 @@ input{
   /* font-family: serif; */
   list-style-type: none;
   /* width: 200px; */
+  
  }
  
-input#c:hover {
+li:hover {
   cursor:pointer;
      
  }
  
 #li0{
 background-color:pink;
-border-bottom-style: solid;    
+border-bottom-style: solid;  
+
 }
 #li1{
 
@@ -120,3 +122,14 @@ background-color:pink;
   border-bottom-right-radius: 20px;
 
 }
+
+li.anim { 
+
+    background-color:pink;
+
+}
+
+#li0, .anim:hover { 
+ background-color:white;
+}
+
