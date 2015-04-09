@@ -96,4 +96,27 @@ input#c:hover {
      
  }
  
-#li0{background-color:pink;}
+#li0{
+background-color:pink;
+border-bottom-style: solid;    
+}
+#li1{
+
+border-bottom-style: solid;    
+}
+
+#li2{
+background-color:pink;
+border-bottom-style: solid;    
+}
+
+#li3{
+
+border-bottom-style: solid;    
+}
+#li4{
+background-color:pink;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+}
