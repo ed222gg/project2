@@ -2,12 +2,14 @@ body{
     background: #FFFFFF;
 }
 
-main{float:left;
-    margin-right:44px;
-width: 300px;
-    padding: 25px;
-    border: 25px solid navy;
-    margin: 25px;}
+main{
+    /* float: right; */
+  overflow: auto;
+  margin: auto;
+  width: 722px;
+  padding: 25px;
+  border: 25px solid navy;
+}
 header{}
 input{
 
@@ -48,24 +50,50 @@ input{
 }
 
 
-#container{  float:left;
-     width: 300px;
-    padding: 25px;
-    border: 25px solid navy;
-    margin: 25px;
+#container{    overflow: auto;
+  /* float: left; */
+  width: 567px;
+  padding: -29px;
+ /* border: 8px solid navy;*/
+  margin: auto;
 }
 
 
-#CategoryTitle{  float:left;
-    width: 300px;
-    padding: 25px;
-    border: 25px solid navy;
-    margin: 25px;
+#CategoryTitle{   
+
+
+  width: 563px;
+  height: 81px;
+  /* padding: 18px; */
+  border: 2px solid navy;
+  /* margin: 25px; */
+  margin: auto;
+  border-radius-top: 12px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
     
 }
-p{  float:left;
-     
-}
 
-#test{}
-.c{ border: 25px solid navy;}
+  
+ ul{ 
+  padding: 0px;
+  margin-top: -2px;
+  width: 563px;
+  border: 2px solid navy;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+ } 
+ li{  /* width: 51px; */
+  font-size: 42px;
+  /* font-family: serif; */
+  list-style-type: none;
+  /* width: 200px; */
+ }
+ 
+input#c:hover {
+  cursor:pointer;
+     
+ }
+ 
+#li0{background-color:pink;}
