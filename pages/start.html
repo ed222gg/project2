@@ -1,27 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Index</title>
-          <link rel="stylesheet" type="text/css" href="../css/style.css" />
-    </head>
-    <body>
-        <header>Titel på spel</header>
-        <main>
-            <div id="container">
-                <div id="titleOnPage">
-                    <div id="categories">
-                        <input type="radio" name="category" value="1" checked> Djur och natur
-                        <input type="radio" name="category" value="2">Geografi
-                        <input type="radio" name="category" value="3">Musik
-                        <input type="radio" name="category" value="4">Kändisar
-                        <input type="radio" name="category" value="5">Film och TV
-                    </div>
-                    <div id="testStatus"></div>
-                    <div id="test"></div>
-                    
-                </div>
-        </main>
-     <script src="../script/Game.js" type="text/javascript"></script>
-    </body>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+</head>
+
+<body>
+    <header>Titel på spel</header>
+    <main>
+        <div id="container">
+            <div id="CategoryTitle">Kategori</div>
+            <div id="categories">
+                <div class="c"><p>Djur och natur</p><input type="radio" id="c0" name="category" value="0"></div>
+                <div class="c"><p>Geografi</p><input type="radio" id="c1" name="category" value="1"></div>
+                <div class="c"><p>Musik</p><input type="radio" id="c2" name="category" value="2"></div>
+                <div class="c"><p>Kändisar</p><input type="radio" id="c3" name="category" value="3"></div>
+                <div class="c"><P>Film och TV</p><input type="radio" id="c4" name="category" value="4"></div>
+            </div>
+        </div>
+        <!-- <template id="tamplate"> -->
+        <div id="gameLayout">
+            <div id="topLayout"></div>
+            <div id="bottomLayout">
+                <div id="bottomLeft"></div>
+            <div id="bottomRight"></div>
+        </div>
+        </div>
+        <!-- </template> -->
+
+    </main>
+    <script src="../script/Game.js" type="text/javascript"></script>
+</body>
+
 </html>
+
+<!-- main funktionen   
+   var template = document.querySelector('#template');
+   var gameLayout = template.content.querySelector('#gameLayout').cloneNode(true);
+   
+   // om du vill hämta element i main funktionen
+   gameLayout.questionP = gameLayout.querySelector('#question');
+   gameLayout.questionP.innerHTML ='vem van vm 2011';
+   
+   // lägger ut allt 
+   container.appendChild(gameLayout);
+   <--

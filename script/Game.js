@@ -15,20 +15,31 @@ var Game= {
     questionsArray: [],
 
 
-    init: function() { // kalla och lyssna på ett klick som då kommer utföra detta!
-        var radios = document.getElementsByName('category');
-console.log(radios)
-        for (var i = 0, length = radios.length; i < length; i++) 
-        {
-            if (radios[i].checked) 
-            {
-                // do whatever you want with the checked radio  tex kör frågorna för den kategorin som radios är sammankopplad med. 
-                console.log(radios[i].value);
-                break;
-            }
-        // only one radio can be logically checked, don't check the rest
-
+    init: function() { 
+        var radios = document.getElementsByName('category'); // samla alla cetegoryelementen i en lista
+        console.log(radios)
+        
+        for (var i = 0; i < radios.length; i++) {   
+            eventClick(i);
         }
+        //funktionen eventclick som vi kallar på i forloopen ovan,
+        //lägger en eventlistener på alla elementen i radios
+        function eventClick(categoryId){
+            radios[categoryId].addEventListener("click", function() {
+            if (radios[categoryId].checked)
+            {
+                
+                //nu har vi checkat samt vet vilket id categorin har. nu kan vi sätta rätt frågor. next step.
+                //hmm hur var det jag hade tänkt nu då...
+                console.log(categoryId)
+                
+            }
+           
+           
+            });
+        }
+        
+       
 
     },
 };

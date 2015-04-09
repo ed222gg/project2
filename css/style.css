@@ -2,74 +2,70 @@ body{
     background: #FFFFFF;
 }
 
-main{
+main{float:left;
     margin-right:44px;
-}
+width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;}
+header{}
+input{
 
-header{
-    font-family: 'Roboto', sans-serif;
-    border-bottom: solid #000000;
-    border-width: 5px;
-    font-size: 52px;
-    margin-bottom: 20px;
-    margin-top: 30px;
-    margin-left: 44px;
-    margin-right: 44px;
-}
+    margin: 20px;}
 
-nav{
-   
-}
-
-nav a{
-    -webkit-transition: background 100ms ease-in;
-    -moz-transition: background 100ms ease-in;
-    -ms-transition: background 100ms ease-in;
-    -o-transition: background 100ms ease-in;
-    transition: background 100ms ease-in;
-    
-    font-family: 'Roboto', sans-serif;
-    margin: auto;
-    font-size: 18px;
-    color: #FFFFFF;
-    padding: 12px;
-    margin-left: 8px;
-    background-color: #000000;
-}
+#template{ }
+#gameLayout{
+    float:left;
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;}
+#topLayout{
+      float:left;
+      width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;}
+#bottomLayout{   float:left;width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;}
+#bottomLeft{  float:left; width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;}
+#bottomRight{   float:left;width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;}
+                  
 
 
-nav a:hover{
-
-}
-
-nav li{
-
-}
-
-a:link {
-
-}
-
-a:visited {
-
-}
-
-#categories{
+#categories{  float:left;
     margin: 0px;
     padding: 0px;
     list-style-type: none;
 }
 
 
-#titleOnPage{
-    /* välg kategori eller fråga*/
-    
-    
+#container{  float:left;
+     width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
 }
 
-#testStatus{
+
+#CategoryTitle{  float:left;
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
     
-    
+}
+p{  float:left;
+     
 }
 
 #test{}
+.c{ border: 25px solid navy;}
