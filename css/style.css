@@ -140,7 +140,7 @@ input{
 /*{background-color:#D5D844}*/
 
 body {
-	background-image: url("http://joshuasortino.com/projects/css3-colored-buttons/images/background.png"), -webkit-gradient(linear, right top, left top, color-stop(0.5, rgb(48,48,48)), color-stop(0.5, rgb(240,240,240)) );
+    background-color:#303030;
 	font-family: anivers, helvetica, Arial, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0;

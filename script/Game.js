@@ -10,7 +10,7 @@ var Game= {
     
      gameOn: {
         animal: {
-            question: 'Vem väger mest?',
+            question: 'Vad är högst?',
             
             answer: [ {
                 bild1: 'frg',
@@ -143,50 +143,17 @@ var Game= {
                 r: ''
                 
             }]
-        },
-              architecture:{
-            question: 'Vem är äldst?',
-            
-            answer: [ {
-                bild1: '',
-                bild2: '',
-                r: ''
-            },
-            {   bild1: '',
-                bild2: '',
-                r: ''
-                
-            },
-            {   bild1: '',
-                bild2: '',
-                r: ''
-            },
-            {   bild1: '',
-                bild2: '',
-                r: ''
-                    
-            },
-            {   bild1: '',
-                bild2: '',
-                r: ''
-                
-            },
-            {   bild1: '',
-                bild2: '',
-                r: ''
-                
-            }]
-        },
+         }
      },
 
 
     init: function() { 
-        
-      var animalBtn = document.getElementById("li0");
-      animalBtn.addEventListener("click", function() {
-          	document.getElementById("categories").innerHTML = "";
-          	document.getElementById("CategoryTitle").innerHTML = "Vem väger mest?";
-          	Game.ran('animal');
+       
+      var architectureBtn = document.getElementsByClassName("button lightbg-blue clearfix");
+      architectureBtn.addEventListener("click", function() {
+        //   	document.getElementById("categories").innerHTML = "";
+        //   	document.getElementById("CategoryTitle").innerHTML = "Vilken byggnad är högst??";
+          	Game.ran('architecture');
           
       });
       
@@ -214,13 +181,7 @@ var Game= {
           
       });
       
-       var arcBtn = document.getElementById("li4");
-      arcBtn.addEventListener("click", function() {
-         document.getElementById("categories").innerHTML = "";
-          	document.getElementById("CategoryTitle").innerHTML = "Vilken byggnad är högst?";
-          Game.ran('architecture'); 
-          
-      });
+    
 
     
 
